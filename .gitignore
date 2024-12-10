@@ -1,0 +1,110 @@
+# Custome
+.env.local
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Scrapy specific
+.scrapy
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Databases and data files
+*.sqlite3
+*.db
+*.json
+*.csv
+*.xml
+
+# Logs
+*.log
+
+# Virtual environments
+.virtual
+.vscode/
+.idea/
+
+# Project-specific data directories
+data/
+datasets/
+scraped_data/
+
+# Mac system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.swp
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Conda environments
+conda-meta/
+
+# Specific to Scrapy
+project.egg-info/
+
+# Ignore specific directories
+logs/
+output/
+
+# Sensitive or local configuration
+config.py
+local_settings.py
+
+# Proxy and authentication files
+proxies.txt
+credentials.json
